@@ -3,3 +3,8 @@ Provides some useful snippets for working with jasmine in coffeescript.
 Prefix your specs with a modeline to tell vim that it's jasmine in the coffee:
 
 # vim: set filetype=coffeescript.jasmine :
+
+
+This is intended to be used with Janus. Add a line to your ~/.janus.rake like this:
+
+vim_plugin_task "coffeescript-jasmine-snippets", "git://github.com/brendanjerwin/coffeescript-jasmine-snippets.git"
