@@ -2,7 +2,7 @@ Provides some useful snippets for working with jasmine in coffeescript.
 
 Prefix your specs with a modeline to tell vim that it's jasmine in the coffee:
 
-# vim: set filetype=coffeescript.jasmine :
+# vim: set filetype=coffee.jasmine :
 
 
 This is intended to be used with Janus. Add a line to your ~/.janus.rake like this:
